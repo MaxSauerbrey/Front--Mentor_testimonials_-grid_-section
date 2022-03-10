@@ -1,0 +1,20 @@
+//!Colours //
+///Primary //
+$moderateViolet:hsl(263, 55%, 52%);
+$veryDarkGrayishBlue:hsl(217, 19%, 35%);
+$veryDarkBlackishBlue: hsl(219, 29%, 14%);
+$white:hsl(0, 0%, 100%);
+// /// Neutral ///
+$lightGray: hsl(0, 0%, 81%);
+$lightGrayishBlue: hsl(210, 46%, 95%);
+//! Selector colors */
+$selector_1: '--moderateViolet';
+$selector_2: '--veryDarkGrayishBlue';
+$selector_3: '--veryDarkBlackishBlue';
+$selector_4: '--white';
+$selector_5: '--lightGray';
+$selector_6: '--lightGrayishBlue';
+//! Font size
+$font-base: 'Barlow Semi Condensed',
+sans-serif;
+$general-font-size:16px;

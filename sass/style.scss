@@ -1,0 +1,88 @@
+                        @use "sass:map";
+                        @use "sass:list";
+                        @import "base/reset.scss";
+                        @import "base/typography.scss";
+                        @import "utils/variables.scss";
+                        @import "utils/function.scss";
+                        @import "layout/main.scss";
+                        /*root */
+                        
+                         :root {
+                            #{$selector_1}: $moderateViolet;
+                            #{$selector_2}: $veryDarkGrayishBlue;
+                            #{$selector_3}: $veryDarkBlackishBlue;
+                            #{$selector_4}: $white;
+                            #{$selector_4}: $lightGray;
+                            #{$selector_6}: $lightGrayishBlue;
+                        }
+                        
+                        html {
+                            width: 100%;
+                        }
+                        
+                        body {
+                            min-height: 100vh;
+                            font-family: $font-base;
+                            padding: pixelsToRems(70px) pixelsToRems(24px);
+                        }
+                        
+                        main {
+                            display: grid;
+                            grid-template-columns: auto;
+                            grid-template-rows: pixelsToRems(383px) pixelsToRems(237px) pixelsToRems(221px) pixelsToRems(367px) pixelsToRems(413px);
+                            row-gap: pixelsToRems(24px);
+                            width: auto;
+                            max-height: 100%;
+                            background-color: $lightGrayishBlue;
+                        }
+                        
+                        .grid {
+                            &__item {
+                                border-radius: pixelsToRems(8px);
+                            }
+                            &__item-1 {
+                                background-color: $moderateViolet;
+                                // width: 80%;
+                            }
+                            &__item-2 {
+                                background-color: $veryDarkGrayishBlue;
+                            }
+                            &__item-3 {
+                                border-color: $white;
+                            }
+                            &__item-4 {
+                                background-color: $veryDarkBlackishBlue;
+                            }
+                            &__item-5 {
+                                border-color: $white;
+                            }
+                        }
+                        
+                        .attribution {
+                            font-size: pixelsToRems(13px);
+                            margin-top: pixelsToRems(30px);
+                            position: relative;
+                            height: auto;
+                            width: 99%;
+                            right: 0rem;
+                            line-height: 10px;
+                            text-align: center;
+                            // color: $DarkGrayishRed;
+                            // & a {
+                            // color: $primary;
+                            // &:hover {
+                            // color: $secondary;
+                            // }
+                            // }
+                            & p:nth-of-type(2) {
+                                position: relative;
+                                text-align: center;
+                                bottom: -0.5rem;
+                            }
+                        }
+                        
+                        @media only screen and (min-width:550px) and(max-width: 799px) {}
+                        
+                        @media only screen and (min-width:800px) and(max-width: 1279px) {}
+                        
+                        @media only screen and (min-width: 1280px) {}
