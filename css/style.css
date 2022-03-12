@@ -88,35 +88,95 @@ body {
   min-height: 100vh;
   font-family: "Barlow Semi Condensed", sans-serif;
   padding: 4.375rem 1.5rem;
+  background-color: #ecf2f8;
 }
 
 main {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 23.9375rem 14.8125rem 13.8125rem 22.9375rem 25.8125rem;
+  grid-template-columns: 1fr;
   row-gap: 1.5rem;
   width: auto;
   max-height: 100%;
-  background-color: #ecf2f8;
 }
 
 .grid__item {
   border-radius: 0.5rem;
+  padding: 1.25rem 1.875rem;
 }
 .grid__item-1 {
+  position: relative;
   background-color: #7541c8;
+  padding: 1.5rem 1.875rem 2.0625rem 1.875rem;
 }
 .grid__item-2 {
   background-color: #48556a;
+  padding: 1.5rem 1.875rem 2.0625rem 1.875rem;
 }
 .grid__item-3 {
-  border-color: white;
+  background-color: white;
 }
 .grid__item-4 {
   background-color: #19212e;
 }
 .grid__item-5 {
-  border-color: white;
+  background-color: white;
+}
+.grid__quotation {
+  position: absolute;
+  right: 1.5rem;
+  top: 0;
+}
+.grid__header {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 1fr;
+}
+.grid__hero-image {
+  border-radius: 50%;
+  height: 60%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.grid__titles {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: absolute;
+  left: 4.8125rem;
+  top: 1.5625rem;
+}
+.grid__title {
+  font-size: 0.8125rem;
+  color: #ecf2f8;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.grid__subtitle {
+  font-size: 0.75rem;
+  color: #cfcfcf;
+  opacity: 0.5;
+  letter-spacing: 0;
+}
+.grid__bold-paragraph {
+  position: relative;
+  bottom: 0.0625rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ecf2f8;
+  margin-bottom: 1.25rem;
+}
+.grid__description-paragraph {
+  position: relative;
+  bottom: 0.0625rem;
+  font-size: 0.8125rem;
+  color: #cfcfcf;
+  font-size: 500;
+}
+.grid__profile-1 {
+  border: 2px solid #81a3d9;
 }
 
 .attribution {

@@ -24,37 +24,98 @@
                             min-height: 100vh;
                             font-family: $font-base;
                             padding: pixelsToRems(70px) pixelsToRems(24px);
+                            background-color: $lightGrayishBlue;
                         }
                         
                         main {
                             display: grid;
-                            grid-template-columns: auto;
-                            grid-template-rows: pixelsToRems(383px) pixelsToRems(237px) pixelsToRems(221px) pixelsToRems(367px) pixelsToRems(413px);
+                            grid-template-columns: 1fr;
+                            // grid-template-rows: pixelsToRems(383px) pixelsToRems(237px) pixelsToRems(221px) pixelsToRems(367px) pixelsToRems(413px);
                             row-gap: pixelsToRems(24px);
                             width: auto;
                             max-height: 100%;
-                            background-color: $lightGrayishBlue;
                         }
                         
                         .grid {
                             &__item {
                                 border-radius: pixelsToRems(8px);
+                                padding: pixelsToRems(20px) pixelsToRems(30px);
                             }
                             &__item-1 {
+                                position: relative;
                                 background-color: $moderateViolet;
-                                // width: 80%;
+                                padding: pixelsToRems(24px) pixelsToRems(30px) pixelsToRems(33px) pixelsToRems(30px);
                             }
                             &__item-2 {
                                 background-color: $veryDarkGrayishBlue;
+                                padding: pixelsToRems(24px) pixelsToRems(30px) pixelsToRems(33px) pixelsToRems(30px);
                             }
                             &__item-3 {
-                                border-color: $white;
+                                background-color: $white;
                             }
                             &__item-4 {
                                 background-color: $veryDarkBlackishBlue;
                             }
                             &__item-5 {
-                                border-color: $white;
+                                background-color: $white;
+                            }
+                            &__quotation {
+                                position: absolute;
+                                right: pixelsToRems(24px);
+                                top: 0;
+                            }
+                            &__header {
+                                display: grid;
+                                grid-template-columns: 20% 1fr;
+                                grid-template-rows: 1fr;
+                            }
+                            &__hero-image {
+                                border-radius: 50%;
+                                height: 60%;
+                                grid-column-start: 1;
+                                grid-column-end: 2;
+                                grid-row-start: 1;
+                                grid-row-end: 2;
+                                // margin-top: pixelsToRems(4px);
+                            }
+                            &__titles {
+                                grid-column-start: 2;
+                                grid-column-end: 3;
+                                grid-row-start: 1;
+                                grid-row-end: 2;
+                                position: absolute;
+                                left: pixelsToRems(77px);
+                                top: pixelsToRems(25px);
+                            }
+                            &__title {
+                                font-size: pixelsToRems(13px);
+                                color: $lightGrayishBlue;
+                                font-weight: 500;
+                                letter-spacing: 0;
+                            }
+                            &__subtitle {
+                                font-size: pixelsToRems(12px);
+                                color: $lightGray;
+                                opacity: 0.5;
+                                letter-spacing: 0;
+                            }
+                            &__bold-paragraph {
+                                position: relative;
+                                bottom: pixelsToRems(1px);
+                                font-size: pixelsToRems(18px);
+                                font-weight: 600;
+                                color: $lightGrayishBlue;
+                                margin-bottom: pixelsToRems(20px);
+                            }
+                            &__description-paragraph {
+                                position: relative;
+                                bottom: pixelsToRems(1px);
+                                font-size: pixelsToRems(13px);
+                                color: $lightGray;
+                                font-size: 500;
+                            }
+                            &__profile-1 {
+                                border: 2px solid hsl(217, 54%, 68%);
                             }
                         }
                         
