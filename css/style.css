@@ -246,6 +246,8 @@ body {
 @media only screen and (min-width: 1200px) {
   body {
     display: grid;
+    position: relative;
+    top: 2rem;
     overflow-y: hidden;
     overflow-x: auto;
     align-items: center;
@@ -253,7 +255,7 @@ body {
   }
 
   .attribution {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
 
   .grid__container {
@@ -263,7 +265,7 @@ body {
     row-gap: 1.5rem;
     position: relative;
     right: 0.25rem;
-    top: 3rem;
+    top: 4rem;
     max-width: 111rem;
   }
   .grid__item {

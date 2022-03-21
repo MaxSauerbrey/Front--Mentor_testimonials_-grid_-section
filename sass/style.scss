@@ -185,15 +185,15 @@
                 @media only screen and (min-width:1200px) {
                     body {
                         display: grid;
-                        // position: relative;
-                        // top: 2rem;
+                        position: relative;
+                        top: 2rem;
                         overflow-y: hidden;
                         overflow-x: auto;
                         align-items: center;
                         justify-items: center;
                     }
                     .attribution {
-                        margin-top: 6rem;
+                        margin-top: 5rem;
                     }
                     .grid {
                         &__container {
@@ -203,7 +203,7 @@
                             row-gap: pixelsToRems(24px);
                             position: relative;
                             right: 0.25rem;
-                            top: 3rem;
+                            top: 4rem;
                             max-width: 111rem;
                         }
                         &__item {
