@@ -91,14 +91,13 @@ body {
   background-color: #ecf2f8;
 }
 
-main {
+.grid__container {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 1.5rem;
   width: auto;
   max-height: 100%;
 }
-
 .grid__item {
   border-radius: 0.5rem;
   padding: 1.25rem 1.875rem;
@@ -253,7 +252,7 @@ main {
     justify-items: center;
   }
 
-  main {
+  .grid__container {
     grid-template-columns: repeat(4, 15.9375rem);
     grid-template-rows: repeat(2, 17.125rem);
     column-gap: 1.875rem;
@@ -263,7 +262,6 @@ main {
     top: 1.73rem;
     max-width: 111rem;
   }
-
   .grid__item {
     padding: 1.25rem 1.875rem;
     position: relative;

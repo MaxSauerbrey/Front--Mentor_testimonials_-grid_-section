@@ -27,16 +27,14 @@
                     background-color: $lightGrayishBlue;
                 }
                 
-                main {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    // grid-template-rows: pixelsToRems(383px) pixelsToRems(237px) pixelsToRems(221px) pixelsToRems(367px) pixelsToRems(413px);
-                    row-gap: pixelsToRems(24px);
-                    width: auto;
-                    max-height: 100%;
-                }
-                
                 .grid {
+                    &__container {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        row-gap: pixelsToRems(24px);
+                        width: auto;
+                        max-height: 100%;
+                    }
                     &__item {
                         border-radius: pixelsToRems(8px);
                         padding: pixelsToRems(20px) pixelsToRems(30px);
@@ -194,17 +192,17 @@
                         align-items: center;
                         justify-items: center;
                     }
-                    main {
-                        grid-template-columns: repeat(4, pixelsToRems(255px));
-                        grid-template-rows: repeat(2, pixelsToRems(274px));
-                        column-gap: pixelsToRems(30px);
-                        row-gap: pixelsToRems(24px);
-                        position: relative;
-                        right: 0.25rem;
-                        top: 1.73rem;
-                        max-width: 111rem;
-                    }
                     .grid {
+                        &__container {
+                            grid-template-columns: repeat(4, pixelsToRems(255px));
+                            grid-template-rows: repeat(2, pixelsToRems(274px));
+                            column-gap: pixelsToRems(30px);
+                            row-gap: pixelsToRems(24px);
+                            position: relative;
+                            right: 0.25rem;
+                            top: 1.73rem;
+                            max-width: 111rem;
+                        }
                         &__item {
                             padding: pixelsToRems(20px) pixelsToRems(30px);
                             position: relative;
