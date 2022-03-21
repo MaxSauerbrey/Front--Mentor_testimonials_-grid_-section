@@ -247,8 +247,6 @@ main {
 @media only screen and (min-width: 1200px) {
   body {
     display: grid;
-    position: relative;
-    top: 2rem;
     overflow-y: hidden;
     overflow-x: auto;
     align-items: center;
@@ -262,7 +260,7 @@ main {
     row-gap: 1.5rem;
     position: relative;
     right: 0.25rem;
-    top: 3.5rem;
+    top: 1.73rem;
     max-width: 111rem;
   }
 
