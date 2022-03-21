@@ -246,22 +246,23 @@ main {
 
 @media only screen and (min-width: 1200px) {
   body {
+    display: grid;
     position: relative;
     top: 2rem;
     overflow-y: hidden;
     overflow-x: auto;
+    align-items: center;
+    justify-items: center;
   }
 
   main {
-    display: grid;
-    align-content: center;
-    justify-content: center;
     grid-template-columns: repeat(4, 15.9375rem);
     grid-template-rows: repeat(2, 17.125rem);
     column-gap: 1.875rem;
     row-gap: 1.5rem;
     position: relative;
     right: 0.25rem;
+    top: 3.5rem;
     max-width: 111rem;
   }
 

@@ -186,21 +186,22 @@
                 
                 @media only screen and (min-width:1200px) {
                     body {
+                        display: grid;
                         position: relative;
                         top: 2rem;
                         overflow-y: hidden;
                         overflow-x: auto;
+                        align-items: center;
+                        justify-items: center;
                     }
                     main {
-                        display: grid;
-                        align-content: center;
-                        justify-content: center;
                         grid-template-columns: repeat(4, pixelsToRems(255px));
                         grid-template-rows: repeat(2, pixelsToRems(274px));
                         column-gap: pixelsToRems(30px);
                         row-gap: pixelsToRems(24px);
                         position: relative;
                         right: 0.25rem;
+                        top: 3.5rem;
                         max-width: 111rem;
                     }
                     .grid {
