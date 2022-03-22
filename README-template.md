@@ -60,8 +60,6 @@ Learned and implemented Sass - variables, mixins. Working with Mobile first work
 
 I'll keep practising flexbox, CSS Grid and Media queries and Javascript.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [Example resource 1](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me to understand CSS grid.
