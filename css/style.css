@@ -289,6 +289,14 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
   }
+  .grid__item-1 .grid__bold-paragraph {
+    position: relative;
+    top: -0.1875rem;
+  }
+  .grid__item-1 .grid__description-paragraph {
+    position: relative;
+    top: -0.625rem;
+  }
   .grid__item-2 {
     position: relative;
     left: 0.25rem;
@@ -300,8 +308,12 @@ body {
   }
   .grid__item-2 .grid__bold-paragraph {
     position: relative;
-    top: 0.25rem;
+    top: -0.1875rem;
     left: 0.125rem;
+  }
+  .grid__item-2 .grid__description-paragraph {
+    position: relative;
+    top: -0.625rem;
   }
   .grid__item-2 .grid__header {
     position: relative;
@@ -309,23 +321,22 @@ body {
   }
   .grid__titles-3 {
     position: relative;
-    top: 0.1875rem;
+    top: 0.125rem;
     left: 0.4375rem;
   }
   .grid__titles-4 {
     position: relative;
-    top: 0.1875rem;
+    top: 0.125rem;
     left: -3.09375rem;
   }
   .grid__titles-5 {
     position: relative;
-    top: 0.3125rem;
+    top: 0.25rem;
     left: 0.5rem;
   }
   .grid__titles-2 {
     position: relative;
-    top: 0.3125rem;
-    left: 0rem;
+    top: 0.25rem;
   }
   .grid__item-5 {
     grid-area: 1/4/3/5;
@@ -339,12 +350,12 @@ body {
   }
   .grid__item-5 .grid__bold-paragraph {
     position: relative;
-    top: 0.3125rem;
+    top: -0.1875rem;
     left: 0.125rem;
   }
   .grid__item-5 .grid__description-paragraph {
     position: relative;
-    top: 0.25rem;
+    top: -0.625rem;
     left: 0.125rem;
   }
   .grid__item-3 {
@@ -361,12 +372,12 @@ body {
   }
   .grid__item-3 .grid__bold-paragraph {
     position: relative;
-    top: 0.3125rem;
+    top: -0.1875rem;
     left: 0.125rem;
   }
   .grid__item-3 .grid__description-paragraph {
     position: relative;
-    top: 0.25rem;
+    top: -0.625rem;
     left: 0.125rem;
   }
   .grid__item-4 {
@@ -384,12 +395,12 @@ body {
   }
   .grid__item-4 .grid__bold-paragraph {
     position: relative;
-    top: 0.3125rem;
+    top: -0.1875rem;
     left: 0.125rem;
   }
   .grid__item-4 .grid__description-paragraph {
     position: relative;
-    top: 0.25rem;
+    top: -0.625rem;
     left: 0.125rem;
   }
   .grid__bold-paragraph {

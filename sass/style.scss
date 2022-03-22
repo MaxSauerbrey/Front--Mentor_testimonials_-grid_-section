@@ -228,6 +228,14 @@
                             left: pixelsToRems(4px);
                             grid-column-start: 1;
                             grid-column-end: 3;
+                            & .grid__bold-paragraph {
+                                position: relative;
+                                top: pixelsToRems(-3px);
+                            }
+                            & .grid__description-paragraph {
+                                position: relative;
+                                top: pixelsToRems(-10px);
+                            }
                         }
                         &__item-2 {
                             position: relative;
@@ -239,8 +247,12 @@
                             }
                             & .grid__bold-paragraph {
                                 position: relative;
-                                top: pixelsToRems(4px);
+                                top: pixelsToRems(-3px);
                                 left: pixelsToRems(2px);
+                            }
+                            & .grid__description-paragraph {
+                                position: relative;
+                                top: pixelsToRems(-10px);
                             }
                             & .grid__header {
                                 position: relative;
@@ -249,23 +261,22 @@
                         }
                         &__titles-3 {
                             position: relative;
-                            top: pixelsToRems(3px);
+                            top: pixelsToRems(2px);
                             left: pixelsToRems(7px);
                         }
                         &__titles-4 {
                             position: relative;
-                            top: pixelsToRems(3px);
+                            top: pixelsToRems(2px);
                             left: pixelsToRems(-49.5px);
                         }
                         &__titles-5 {
                             position: relative;
-                            top: pixelsToRems(5px);
+                            top: pixelsToRems(4px);
                             left: pixelsToRems(8px);
                         }
                         &__titles-2 {
                             position: relative;
-                            top: pixelsToRems(5px);
-                            left: pixelsToRems(0px);
+                            top: pixelsToRems(4px);
                         }
                         &__item-5 {
                             grid-area: 1 /4 / 3 / 5;
@@ -278,12 +289,12 @@
                             }
                             & .grid__bold-paragraph {
                                 position: relative;
-                                top: pixelsToRems(5px);
+                                top: pixelsToRems(-3px);
                                 left: pixelsToRems(2px);
                             }
                             & .grid__description-paragraph {
                                 position: relative;
-                                top: pixelsToRems(4px);
+                                top: pixelsToRems(-10px);
                                 left: pixelsToRems(2px);
                             }
                         }
@@ -300,12 +311,12 @@
                             }
                             & .grid__bold-paragraph {
                                 position: relative;
-                                top: pixelsToRems(5px);
+                                top: pixelsToRems(-3px);
                                 left: pixelsToRems(2px);
                             }
                             & .grid__description-paragraph {
                                 position: relative;
-                                top: pixelsToRems(4px);
+                                top: pixelsToRems(-10px);
                                 left: pixelsToRems(2px);
                             }
                         }
@@ -323,12 +334,12 @@
                             }
                             & .grid__bold-paragraph {
                                 position: relative;
-                                top: pixelsToRems(5px);
+                                top: pixelsToRems(-3px);
                                 left: pixelsToRems(2px);
                             }
                             & .grid__description-paragraph {
                                 position: relative;
-                                top: pixelsToRems(4px);
+                                top: pixelsToRems(-10px);
                                 left: pixelsToRems(2px);
                             }
                         }
