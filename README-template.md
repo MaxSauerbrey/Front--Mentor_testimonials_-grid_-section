@@ -62,7 +62,7 @@ I'll keep practising flexbox, CSS Grid and Media queries and Javascript.
 
 ### Useful resources
 
-- [Example resource 1](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me to understand CSS grid.
+- [A Complete Guide to Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me to understand CSS grid.
 
 ## Author
 
