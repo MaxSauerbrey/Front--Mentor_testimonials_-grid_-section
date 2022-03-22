@@ -153,7 +153,7 @@ body {
 }
 .grid__hero-image {
   border-radius: 50%;
-  height: 60.25%;
+  height: 50.25%;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -204,9 +204,6 @@ body {
 }
 .grid__bold-paragraph--white-bgc {
   color: #48556a;
-}
-.grid__bold-paragrapg--white-bgc {
-  color: #19212e;
 }
 .grid__description-paragraph {
   position: relative;
@@ -265,7 +262,7 @@ body {
     row-gap: 1.5rem;
     position: relative;
     right: 0.25rem;
-    top: 2.1rem;
+    top: 2.2rem;
     max-width: 111rem;
   }
   .grid__item {
@@ -303,7 +300,7 @@ body {
   }
   .grid__item-2 .grid__bold-paragraph {
     position: relative;
-    top: 0.3125rem;
+    top: 0.25rem;
     left: 0.125rem;
   }
   .grid__item-2 .grid__header {
@@ -423,6 +420,12 @@ body {
     left: 0.125rem;
     border: 2px solid #a674f1;
     height: 70%;
+  }
+  .grid__bold-paragraph {
+    bottom: 1rem;
+  }
+  .grid__description-paragraph {
+    bottom: 1rem;
   }
 }
 

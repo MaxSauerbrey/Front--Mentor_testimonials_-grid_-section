@@ -90,7 +90,7 @@
                     }
                     &__hero-image {
                         border-radius: 50%;
-                        height: 60.25%;
+                        height: 50.25%;
                         grid-column-start: 1;
                         grid-column-end: 2;
                         grid-row-start: 1;
@@ -142,9 +142,6 @@
                         &--white-bgc {
                             color: $veryDarkGrayishBlue;
                         }
-                    }
-                    &__bold-paragrapg--white-bgc {
-                        color: $veryDarkBlackishBlue;
                     }
                     &__description-paragraph {
                         position: relative;
@@ -203,7 +200,7 @@
                             row-gap: pixelsToRems(24px);
                             position: relative;
                             right: 0.25rem;
-                            top: 2.1rem;
+                            top: 2.2rem;
                             max-width: 111rem;
                         }
                         &__item {
@@ -225,6 +222,8 @@
                         &__subtitle {
                             font-size: pixelsToRems(11px);
                         }
+                        // &__bold-paragraph {
+                        // }    
                         &__item-1 {
                             left: pixelsToRems(4px);
                             grid-column-start: 1;
@@ -240,7 +239,7 @@
                             }
                             & .grid__bold-paragraph {
                                 position: relative;
-                                top: pixelsToRems(5px);
+                                top: pixelsToRems(4px);
                                 left: pixelsToRems(2px);
                             }
                             & .grid__header {
@@ -361,6 +360,12 @@
                             left: pixelsToRems(2px);
                             border: 2px solid hsl(264, 82%, 70%);
                             height: 70%;
+                        }
+                        &__bold-paragraph {
+                            bottom: 1rem;
+                        }
+                        &__description-paragraph {
+                            bottom: 1rem;
                         }
                     }
                 }
